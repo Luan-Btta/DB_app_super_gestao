@@ -10,7 +10,15 @@ describe unidades;
 describe produto_filiais;
 describe motivo_contatos;
 
+select * from migrations;
+select * from fornecedores;
+select * from site_contatos;
+select * from produtos;
+select * from produto_detalhes;
+select * from unidades;
+select * from produto_filiais;
 select * from motivo_contatos;
+
 
 insert into site_contatos(nome, telefone, email, motivo_contato, mensagem)values('João', '(88) 91111-2222', 'joao@contato.com.br', 3, 'É muito difícil localizar a opção de listar todos os produtos');
 insert into site_contatos(nome, telefone, email, motivo_contato, mensagem)values('Rosa', '(33) 92222-3333', 'rosa@contato.com.br', 1, 'Quando custa essa aplicação?');
