@@ -9,6 +9,7 @@ describe produto_detalhes;
 describe unidades;
 describe produto_filiais;
 describe motivo_contatos;
+describe log_acessos;
 
 select * from migrations;
 select * from fornecedores;
@@ -18,6 +19,7 @@ select * from produto_detalhes;
 select * from unidades;
 select * from produto_filiais;
 select * from motivo_contatos;
+select * from log_acessos;
 
 set foreign_key_checks = 0; 
 truncate site_contatos;
