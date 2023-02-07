@@ -10,6 +10,7 @@ describe unidades;
 describe produto_filiais;
 describe motivo_contatos;
 describe log_acessos;
+describe users;
 
 select * from migrations;
 select * from fornecedores;
@@ -20,6 +21,9 @@ select * from unidades;
 select * from produto_filiais;
 select * from motivo_contatos;
 select * from log_acessos;
+select * from users;
+
+insert into users (name, email, password) values ('Luan', 'contato@luan.com.br', '1234');
 
 set foreign_key_checks = 0; 
 truncate site_contatos;
